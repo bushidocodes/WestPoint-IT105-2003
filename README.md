@@ -1,6 +1,18 @@
 # West Point IT105 Java (Fall 2003)
 
-A variety of Java programs I wrote for West Point's IT105 Intro to IT course in Fall 2003.
+A variety of Java programs I wrote for West Point's IT105 Intro to IT course in Fall 2003. They have since been modernized to Java 25's compact source file format (classless `void main()`) with the simple IO routines from `java.lang.IO`.
+
+## Running the programs
+
+Requires JDK 25 or later. Each `.java` file is a compact source file, so it can be launched directly with the single-file source-code launcher — no `javac` step needed:
+
+```sh
+java TigerWoods.java
+java TigerWoodsExtraCredit.java
+java Seven27.java
+```
+
+Each program reads its input from standard input via `IO.readln`, so just type your answers at the prompts.
 
 ## Tiger Wood's Automated Caddy
 
