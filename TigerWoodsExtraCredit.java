@@ -8,7 +8,8 @@ void main() {
     int distanceToHole = Integer.parseInt(IO.readln("Enter the distance to the hole in yards: "));
     if (distanceToHole > 145 || distanceToHole < 1) {
         IO.println("Exceeds the Distance Limit");
-        club = club - 999;
+        IO.println("Invalid Input.  Results Void.");
+        return;
     }
     int elevationDifference = Integer.parseInt(IO.readln(
             "Enter the elevation difference to the hole in yards. + value is uphill.  - value is downhill: "));
