@@ -16,7 +16,7 @@ void main() {
     double windSpeed = Double.parseDouble(
             IO.readln("Enter the wind speed + value is a tailwind.  - value is a headwind: "));
     int terrain = Integer.parseInt(
-            IO.readln("Enter -1 if in the Ruff.  Enter 0 if on the Fairway.  Enter 1 if in a divot: "));
+            IO.readln("Enter -1 if in the Rough.  Enter 0 if on the Fairway.  Enter 1 if in a divot: "));
     double windFactor = (windSpeed / 10) * (windSpeed / 10) + 2.2360679775;
     if (distanceToHole >= 121) {
         club = club + 5;
