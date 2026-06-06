@@ -30,6 +30,9 @@ void main() {
         }
         if (getPlayerCardTotal() > 27) {
             givePotToDealer();
+            printLine("You busted! Dealer wins the pot.");
+            printLine("The dealer's current bank is " + getDealerBank());
+            printLine("The player's current bank is " + getHumanBank());
         } else {
             if (getPlayerCardTotal() <= 7) {
                 playerDiff = playerDiff + (7 - getPlayerCardTotal());
