@@ -39,8 +39,6 @@ void main() {
                 playerDiff = playerDiff + (27 - getPlayerCardTotal());
             }
 
-            printLine(playerDiff);
-
             flipDownCard();
 
             while (getDealerCardTotal() < 6 || (getDealerCardTotal() > 7 && getDealerCardTotal() < 22)) {
@@ -58,8 +56,6 @@ void main() {
                 if (getDealerCardTotal() > 7) {
                     dealerDiff = dealerDiff + (27 - getDealerCardTotal());
                 }
-
-                printLine(dealerDiff);
 
                 if (playerDiff < dealerDiff) {
                     givePotToPlayer();
