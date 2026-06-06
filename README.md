@@ -7,9 +7,9 @@ A variety of Java programs I wrote for West Point's IT105 Intro to IT course in 
 Requires JDK 25 or later. Each `.java` file is a compact source file, so it can be launched directly with the single-file source-code launcher — no `javac` step needed:
 
 ```sh
-java TigerWoods.java
-java TigerWoodsExtraCredit.java
-java Seven27.java
+java --enable-preview TigerWoods.java
+java --enable-preview TigerWoodsExtraCredit.java
+java --enable-preview Seven27.java
 ```
 
 Each program reads its input from standard input via `IO.readln`, so just type your answers at the prompts.
