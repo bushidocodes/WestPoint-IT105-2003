@@ -46,31 +46,31 @@ void main() {
     }
 
     if (club == 0) {
-        IO.print("P");
+        IO.println("P");
     }
     if (club == 1) {
-        IO.print("FS");
+        IO.println("FS");
     }
     if (club == 2) {
-        IO.print("LWII");
+        IO.println("LWII");
     }
     if (club == 3) {
-        IO.print("LW");
+        IO.println("LW");
     }
     if (club == 4) {
-        IO.print("SW");
+        IO.println("SW");
     }
     if (club == 5) {
-        IO.print("PW");
+        IO.println("PW");
     }
     if (club == 6) {
-        IO.print("9I");
+        IO.println("9I");
     }
     if (club == 7) {
-        IO.print("8I");
+        IO.println("8I");
     }
     if (club == 8) {
-        IO.print("7I");
+        IO.println("7I");
     }
     if (club < 0) {
         IO.println("Invalid Input.  Results Void.");
